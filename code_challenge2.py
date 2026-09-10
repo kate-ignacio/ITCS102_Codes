@@ -12,8 +12,11 @@ amount = amount % 500
 p200 = amount // 200
 amount = amount % 200
 
-p150 = amount // 150
-amount = amount % 150
+p100 = amount // 100
+amount = amount % 100
+
+p50 = amount // 50
+amount = amount % 50
 
 p20 = amount // 20
 amount = amount % 20
@@ -31,7 +34,8 @@ print("Amount Entered:", original)
 print("1000 :", p1000)
 print("500  :", p500)
 print("200  :", p200)
-print("150  :", p150)
+print("100  :", p100)
+print("50    :", p50)
 print("20   :", p20)
 print("10   :", p10)
 print("5    :", p5)
