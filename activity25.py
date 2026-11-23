@@ -1,19 +1,12 @@
+
 #hobby
-#cartoon
+#name
+#desc
 
+SpongeBob = "SpongeBob SquarePants is a cartoon about a sea sponge who lives in a pineapple under the sea."
+cartoon = ["Mickey Mouse", "Donald Duck", SpongeBob]
+disney = ["Minnie Mouse", "Goofy", cartoon, "Daisy Duck"]
+classic = ["Tom and Jerry", "Looney Tunes", disney, "Popeye"]
+cartoon_type = {"old_school": classic, "new": "Adventure Time", "korean": "Larva"}
 
-
-
-
-
-Dora_the_explorer = {"Dora","Boots","Map"}
-The_simpsons = {"Homer","Marge","Bart"}
-
-loyal = {"faithful","steadfast, devoted}
-Wybie = {"Loyal","Mechanical","Courage"}
-Coraline = {"bravery","resilience","sympathy"}
-Cat = {"cute","furry","naugthy"}
-Coraline = {"Coraline","Wybie","Cat"}
-cartoon_type = {"stop_motion":Coraline,"satiritical":"the_simpsons","adventure":"dora_the_explorer"}
-
-print(cartoon_type["stop_motion"][2][4][2])
+print(cartoon_type["old_school"][2][2])
